@@ -1,3 +1,10 @@
+//
+//  Letter.swift
+//  Animations-SwiftUI
+//
+//  Created by Anastasia Ryabenko on 16.10.2020.
+//
+
 import SwiftUI
 
 public struct Colors {

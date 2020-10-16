@@ -13,6 +13,8 @@
 		1AAC371E253A305700EDD94B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC371D253A305700EDD94B /* Colors.swift */; };
 		1AAC3723253A307A00EDD94B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC3722253A307A00EDD94B /* Colors.xcassets */; };
 		1AAC3728253A30AF00EDD94B /* CircleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC3727253A30AF00EDD94B /* CircleLoader.swift */; };
+		1AAC3730253A352700EDD94B /* HeartLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC372F253A352700EDD94B /* HeartLoader.swift */; };
+		1AAC3734253A355200EDD94B /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC3733253A355200EDD94B /* HeartShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1AAC371D253A305700EDD94B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1AAC3722253A307A00EDD94B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1AAC3727253A30AF00EDD94B /* CircleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoader.swift; sourceTree = "<group>"; };
+		1AAC372F253A352700EDD94B /* HeartLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartLoader.swift; sourceTree = "<group>"; };
+		1AAC3733253A355200EDD94B /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		1AAC3725253A308F00EDD94B /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				1AAC372E253A34ED00EDD94B /* HeartLoader */,
 				1AAC3726253A309800EDD94B /* CircleLoader */,
 			);
 			path = Animations;
@@ -105,6 +110,15 @@
 				1AAC3727253A30AF00EDD94B /* CircleLoader.swift */,
 			);
 			path = CircleLoader;
+			sourceTree = "<group>";
+		};
+		1AAC372E253A34ED00EDD94B /* HeartLoader */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC372F253A352700EDD94B /* HeartLoader.swift */,
+				1AAC3733253A355200EDD94B /* HeartShape.swift */,
+			);
+			path = HeartLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +191,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAC3734253A355200EDD94B /* HeartShape.swift in Sources */,
 				1AAC371E253A305700EDD94B /* Colors.swift in Sources */,
 				1AAC3728253A30AF00EDD94B /* CircleLoader.swift in Sources */,
 				1AAC370D253A302300EDD94B /* Animations_SwiftUIApp.swift in Sources */,
+				1AAC3730253A352700EDD94B /* HeartLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
