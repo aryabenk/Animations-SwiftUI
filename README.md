@@ -1,7 +1,10 @@
 # Animations-SwiftUI
 
+### [Like](https://github.com/Starscatcher/Animations-SwiftUI/blob/main/Animations-SwiftUI/Animations/Like/Like.swift)
+![RPReplay-Final1602927468](https://user-images.githubusercontent.com/35840649/96334067-9fe98a00-1076-11eb-8c3c-34cfc568fc51.gif)
+
 ### [Circle Loader](https://github.com/Starscatcher/Animations-SwiftUI/blob/main/Animations-SwiftUI/Animations/CircleLoader/CircleLoader.swift)
-![2020-10-17-100109](https://user-images.githubusercontent.com/35840649/96330674-e2ec3300-105f-11eb-82d9-c1b719029715.gif)
+![RPReplay-Final1602927311](https://user-images.githubusercontent.com/35840649/96334048-7fb9cb00-1076-11eb-862c-2c0a9d2b0851.gif)
 
 ### [Heart Loader](https://github.com/Starscatcher/Animations-SwiftUI/blob/main/Animations-SwiftUI/Animations/HeartLoader/HeartLoader.swift)
-![2020-10-17-095456](https://user-images.githubusercontent.com/35840649/96330580-f34fde00-105e-11eb-95ee-2560d9b2de02.gif)
+![RPReplay-Final1602927413](https://user-images.githubusercontent.com/35840649/96334052-86484280-1076-11eb-82fa-0b7b477030b3.gif)
