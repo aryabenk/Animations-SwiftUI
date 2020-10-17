@@ -15,6 +15,9 @@
 		1AAC3728253A30AF00EDD94B /* CircleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC3727253A30AF00EDD94B /* CircleLoader.swift */; };
 		1AAC3730253A352700EDD94B /* HeartLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC372F253A352700EDD94B /* HeartLoader.swift */; };
 		1AAC3734253A355200EDD94B /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC3733253A355200EDD94B /* HeartShape.swift */; };
+		1AAC373C253AD38D00EDD94B /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC373B253AD38D00EDD94B /* Like.swift */; };
+		1AAC373F253AD6D700EDD94B /* FloatingHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC373E253AD6D700EDD94B /* FloatingHeart.swift */; };
+		1AAC3742253AD6F300EDD94B /* HeartImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC3741253AD6F300EDD94B /* HeartImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		1AAC3727253A30AF00EDD94B /* CircleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoader.swift; sourceTree = "<group>"; };
 		1AAC372F253A352700EDD94B /* HeartLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartLoader.swift; sourceTree = "<group>"; };
 		1AAC3733253A355200EDD94B /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
+		1AAC373B253AD38D00EDD94B /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		1AAC373E253AD6D700EDD94B /* FloatingHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingHeart.swift; sourceTree = "<group>"; };
+		1AAC3741253AD6F300EDD94B /* HeartImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		1AAC3725253A308F00EDD94B /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				1AAC373A253AD37200EDD94B /* Like */,
 				1AAC372E253A34ED00EDD94B /* HeartLoader */,
 				1AAC3726253A309800EDD94B /* CircleLoader */,
 			);
@@ -119,6 +126,16 @@
 				1AAC3733253A355200EDD94B /* HeartShape.swift */,
 			);
 			path = HeartLoader;
+			sourceTree = "<group>";
+		};
+		1AAC373A253AD37200EDD94B /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC373B253AD38D00EDD94B /* Like.swift */,
+				1AAC3741253AD6F300EDD94B /* HeartImageView.swift */,
+				1AAC373E253AD6D700EDD94B /* FloatingHeart.swift */,
+			);
+			path = Like;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,10 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAC373C253AD38D00EDD94B /* Like.swift in Sources */,
+				1AAC3742253AD6F300EDD94B /* HeartImageView.swift in Sources */,
 				1AAC3734253A355200EDD94B /* HeartShape.swift in Sources */,
 				1AAC371E253A305700EDD94B /* Colors.swift in Sources */,
 				1AAC3728253A30AF00EDD94B /* CircleLoader.swift in Sources */,
 				1AAC370D253A302300EDD94B /* Animations_SwiftUIApp.swift in Sources */,
+				1AAC373F253AD6D700EDD94B /* FloatingHeart.swift in Sources */,
 				1AAC3730253A352700EDD94B /* HeartLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

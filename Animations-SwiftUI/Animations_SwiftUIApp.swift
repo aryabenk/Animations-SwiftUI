@@ -11,8 +11,13 @@ import SwiftUI
 struct Animations_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            CircleLoader(color: Colors.violet, diameter: 40, thick: 8, animationDuration: 0.7)
-            //HeartLoader(color: Colors.violet, diameter: 50, thick: 6, animationDuration: 0.15)
+            ZStack{
+                Color.white
+                    .edgesIgnoringSafeArea(.all)
+                //CircleLoader(color: Colors.violet, diameter:  40, thick: 8, animationDuration: 0.7)
+                //HeartLoader(color: Colors.violet, diameter:   50, thick: 6, animationDuration: 0.15)
+                //Like(color: Colors.violet, size: 60,  animationDuration: 0.25)
+            }
         }
     }
 }
