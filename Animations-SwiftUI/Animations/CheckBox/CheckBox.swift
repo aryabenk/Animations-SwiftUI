@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CheckBox: View {
     private let animationDuration: Double = 0.35
-    private let size: CGFloat = 80
+    private let size: CGFloat = 60
     @State private var isChecked: Bool = false
     
     @State private var checkMarkColor = Colors.violet

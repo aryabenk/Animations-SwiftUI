@@ -18,10 +18,13 @@
 		1AAC373C253AD38D00EDD94B /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC373B253AD38D00EDD94B /* Like.swift */; };
 		1AAC373F253AD6D700EDD94B /* FloatingHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC373E253AD6D700EDD94B /* FloatingHeart.swift */; };
 		1AAC3742253AD6F300EDD94B /* HeartImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC3741253AD6F300EDD94B /* HeartImageView.swift */; };
+		1ABA9BE1253DFD8C0099F92F /* SwitchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA9BE0253DFD8C0099F92F /* SwitchState.swift */; };
 		1AD0CA3D253C531100CB6A43 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA3C253C531100CB6A43 /* ExpandingView.swift */; };
 		1AD0CA42253C533D00CB6A43 /* ExpandingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA41253C533D00CB6A43 /* ExpandingItem.swift */; };
 		1AD0CA47253C8F8E00CB6A43 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA46253C8F8E00CB6A43 /* CheckBox.swift */; };
 		1AD0CA4C253CE38800CB6A43 /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA4B253CE38800CB6A43 /* CheckMark.swift */; };
+		1AD0CAA1253DD56B00CB6A43 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CAA0253DD56B00CB6A43 /* Switch.swift */; };
+		1AD0CAA5253DD5B900CB6A43 /* SwitchLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CAA4253DD5B900CB6A43 /* SwitchLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +41,13 @@
 		1AAC373B253AD38D00EDD94B /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		1AAC373E253AD6D700EDD94B /* FloatingHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingHeart.swift; sourceTree = "<group>"; };
 		1AAC3741253AD6F300EDD94B /* HeartImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartImageView.swift; sourceTree = "<group>"; };
+		1ABA9BE0253DFD8C0099F92F /* SwitchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchState.swift; sourceTree = "<group>"; };
 		1AD0CA3C253C531100CB6A43 /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
 		1AD0CA41253C533D00CB6A43 /* ExpandingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingItem.swift; sourceTree = "<group>"; };
 		1AD0CA46253C8F8E00CB6A43 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		1AD0CA4B253CE38800CB6A43 /* CheckMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
+		1AD0CAA0253DD56B00CB6A43 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		1AD0CAA4253DD5B900CB6A43 /* SwitchLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		1AAC3725253A308F00EDD94B /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				1AD0CA9F253DD55A00CB6A43 /* Switch */,
 				1AD0CA45253C8F7700CB6A43 /* CheckBox */,
 				1AD0CA3B253C52F800CB6A43 /* Expanded View */,
 				1AAC372E253A34ED00EDD94B /* HeartLoader */,
@@ -164,6 +171,16 @@
 				1AD0CA4B253CE38800CB6A43 /* CheckMark.swift */,
 			);
 			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		1AD0CA9F253DD55A00CB6A43 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				1AD0CAA0253DD56B00CB6A43 /* Switch.swift */,
+				1AD0CAA4253DD5B900CB6A43 /* SwitchLoader.swift */,
+				1ABA9BE0253DFD8C0099F92F /* SwitchState.swift */,
+			);
+			path = Switch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,9 +261,12 @@
 				1AAC371E253A305700EDD94B /* Colors.swift in Sources */,
 				1AAC3728253A30AF00EDD94B /* CircleLoader.swift in Sources */,
 				1AD0CA3D253C531100CB6A43 /* ExpandingView.swift in Sources */,
+				1AD0CAA1253DD56B00CB6A43 /* Switch.swift in Sources */,
 				1AAC370D253A302300EDD94B /* Animations_SwiftUIApp.swift in Sources */,
+				1ABA9BE1253DFD8C0099F92F /* SwitchState.swift in Sources */,
 				1AD0CA42253C533D00CB6A43 /* ExpandingItem.swift in Sources */,
 				1AAC373F253AD6D700EDD94B /* FloatingHeart.swift in Sources */,
+				1AD0CAA5253DD5B900CB6A43 /* SwitchLoader.swift in Sources */,
 				1AAC3730253A352700EDD94B /* HeartLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

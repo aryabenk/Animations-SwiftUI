@@ -18,7 +18,8 @@ struct Animations_SwiftUIApp: App {
                 //HeartLoader(color: Colors.violet, diameter:   50, thick: 6, animationDuration: 0.15)
                 //Like(color: Colors.violet, size: 60,  animationDuration: 0.25)
                 //ExpandingView(color: Colors.violet)
-                CheckBox()
+                //CheckBox()
+                Switch()
             }
         }
     }

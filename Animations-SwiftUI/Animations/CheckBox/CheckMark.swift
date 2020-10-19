@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct СheckMark: Shape {
-    let scaleFactor: CGFloat = 0.4
+    let scaleFactor: CGFloat = 0.3
     
     func path(in rect: CGRect) -> Path {
         let centerX = rect.midX + 4
