@@ -6,6 +6,9 @@
 ### [Expanding View](https://github.com/Starscatcher/Animations-SwiftUI/tree/main/Animations-SwiftUI/Animations/Expanded%20View)
 ![RPReplay-Final1603022696](https://user-images.githubusercontent.com/35840649/96366981-bfa2b000-1153-11eb-8b41-03329b643a56.gif)
 
+### [Switch](https://github.com/Starscatcher/Animations-SwiftUI/tree/main/Animations-SwiftUI/Animations/Switch)
+![RPReplay-Final1603129386](https://user-images.githubusercontent.com/35840649/96492236-0378e080-124c-11eb-8ae5-551ba91cf2f3.gif)
+
 ### [CheckBox](https://github.com/Starscatcher/Animations-SwiftUI/tree/main/Animations-SwiftUI/Animations/CheckBox)
 ![RPReplay-Final1603093156](https://user-images.githubusercontent.com/35840649/96415652-920f4280-11f7-11eb-87db-7541c325fd67.gif)
 
