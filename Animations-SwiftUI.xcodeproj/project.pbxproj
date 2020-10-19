@@ -20,6 +20,8 @@
 		1AAC3742253AD6F300EDD94B /* HeartImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC3741253AD6F300EDD94B /* HeartImageView.swift */; };
 		1AD0CA3D253C531100CB6A43 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA3C253C531100CB6A43 /* ExpandingView.swift */; };
 		1AD0CA42253C533D00CB6A43 /* ExpandingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA41253C533D00CB6A43 /* ExpandingItem.swift */; };
+		1AD0CA47253C8F8E00CB6A43 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA46253C8F8E00CB6A43 /* CheckBox.swift */; };
+		1AD0CA4C253CE38800CB6A43 /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0CA4B253CE38800CB6A43 /* CheckMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		1AAC3741253AD6F300EDD94B /* HeartImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartImageView.swift; sourceTree = "<group>"; };
 		1AD0CA3C253C531100CB6A43 /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
 		1AD0CA41253C533D00CB6A43 /* ExpandingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingItem.swift; sourceTree = "<group>"; };
+		1AD0CA46253C8F8E00CB6A43 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		1AD0CA4B253CE38800CB6A43 /* CheckMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +112,10 @@
 		1AAC3725253A308F00EDD94B /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				1AD0CA45253C8F7700CB6A43 /* CheckBox */,
 				1AD0CA3B253C52F800CB6A43 /* Expanded View */,
-				1AAC373A253AD37200EDD94B /* Like */,
 				1AAC372E253A34ED00EDD94B /* HeartLoader */,
+				1AAC373A253AD37200EDD94B /* Like */,
 				1AAC3726253A309800EDD94B /* CircleLoader */,
 			);
 			path = Animations;
@@ -150,6 +155,15 @@
 				1AD0CA41253C533D00CB6A43 /* ExpandingItem.swift */,
 			);
 			path = "Expanded View";
+			sourceTree = "<group>";
+		};
+		1AD0CA45253C8F7700CB6A43 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				1AD0CA46253C8F8E00CB6A43 /* CheckBox.swift */,
+				1AD0CA4B253CE38800CB6A43 /* CheckMark.swift */,
+			);
+			path = CheckBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +239,8 @@
 				1AAC373C253AD38D00EDD94B /* Like.swift in Sources */,
 				1AAC3742253AD6F300EDD94B /* HeartImageView.swift in Sources */,
 				1AAC3734253A355200EDD94B /* HeartShape.swift in Sources */,
+				1AD0CA4C253CE38800CB6A43 /* CheckMark.swift in Sources */,
+				1AD0CA47253C8F8E00CB6A43 /* CheckBox.swift in Sources */,
 				1AAC371E253A305700EDD94B /* Colors.swift in Sources */,
 				1AAC3728253A30AF00EDD94B /* CircleLoader.swift in Sources */,
 				1AD0CA3D253C531100CB6A43 /* ExpandingView.swift in Sources */,
