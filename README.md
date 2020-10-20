@@ -1,5 +1,8 @@
 # Animations-SwiftUI
 
+### [Search Bar](https://github.com/Starscatcher/Animations-SwiftUI/tree/main/Animations-SwiftUI/Animations/SearchBar)
+![RPReplay-Final1603192280](https://user-images.githubusercontent.com/35840649/96578851-8c405c80-12de-11eb-9c49-f31ebb711145.gif)
+
 ### [Like](https://github.com/Starscatcher/Animations-SwiftUI/blob/main/Animations-SwiftUI/Animations/Like)
 ![RPReplay-Final1602927468](https://user-images.githubusercontent.com/35840649/96334067-9fe98a00-1076-11eb-8c3c-34cfc568fc51.gif)
 
