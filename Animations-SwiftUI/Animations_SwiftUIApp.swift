@@ -19,7 +19,8 @@ struct Animations_SwiftUIApp: App {
                 //Like(color: Colors.violet, size: 60,  animationDuration: 0.25)
                 //ExpandingView(color: Colors.violet)
                 //CheckBox()
-                Switch()
+                //Switch()
+                SearchBar()
             }
         }
     }
